@@ -254,3 +254,111 @@ body {
     align-items: center;
     gap: 20px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .header__nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header__search {
+        width: 100%;
+    }
+
+    .header__list {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .order__list {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .order__box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .order__pic {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .footer__gnr {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer__ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Telefonlar uchun (480px va undan kichik ekranlar) */
+@media (max-width: 480px) {
+    .header {
+        padding: 1rem 5%;
+    }
+
+    .header__search {
+        font-size: 14px;
+        height: 35px;
+    }
+
+    .header__LabelSearch i {
+        right: 35px;
+    }
+
+    .header__list {
+        gap: 10px;
+    }
+
+    .header__item p {
+        font-size: 13px;
+    }
+
+    .order__name {
+        font-size: 24px;
+    }
+
+    .order__date {
+        font-size: 18px;
+    }
+
+    .order__cost {
+        font-size: 20px;
+    }
+
+    .order__btn2 {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .order__btn2 i {
+        font-size: 18px;
+    }
+
+    .order__btn2 p {
+        font-size: 14px;
+    }
+
+    .order__btn6 {
+        padding: 10px 20px;
+    }
+
+    .footer__ul {
+        gap: 10px;
+        text-align: center;
+    }
+
+    .footer__link {
+        font-size: 14px;
+    }
+}
